@@ -17,10 +17,6 @@ See scripts: 1.2.1.generateSJARACNeInput.R; 1.2.2.generateSJARACNenetwork.sh
 we inferred their network activities in each cell from the scRNA-seq data by using the NetBID2 (data-driven Network-based Bayesian Inference of Drivers) algorithm with the interactome of the corresponding cell type. 
 See scripts: 1.3.GetActivityFromSJARACNe.R
 
-### 1.4. web portal
-
-We also built a visual web portal for scRNA-seq expression and activity data of human BM B-cell development stages.
-
 ## 2. scMultiome profiling of B-ALL cases
 
 Cell Ranger ARC pipeline (version 2.0.0) from 10x Genomics was used to generate barcoded count matrices of gene expression and ATAC data. For each sample, count matrices were loaded in Seurat v4.1.0.
